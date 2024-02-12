@@ -8,6 +8,12 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/Drako01/java-udemy.git"/>
 	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Alejandro Di Stefano &lt;addistefano@live.com.ar&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Alejandro Di Stefano &lt;addistefano@live.com.ar&gt;"/>
+	</list>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
 		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
