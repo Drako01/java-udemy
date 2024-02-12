@@ -1,0 +1,20 @@
+package com.udemy.persona.test;
+
+import com.udemy.persona.Persona;
+
+public class PersonaPrueba {
+
+    public static void main(String[] args) {
+	Persona persona1 = new Persona("Alejandro");
+	
+	Persona persona2 = new Persona("Daniel");
+	
+	Persona persona3 = new Persona("Di Stefano");
+	imprimir(persona1);
+	
+    }
+
+    public void static imprimir(Persona persona) {
+	System.out.println("Persona = " + persona);
+    }
+}

@@ -1,0 +1,14 @@
+package com.udemy.persona.test;
+
+import com.udemy.persona.Persona;
+
+public class PersonaPrueba {
+
+    public static void main(String[] args) {
+	Persona persona1 = new Persona("Alejandro");
+	System.out.println("persona1 = " + persona1);
+	Persona persona2 = new Persona("Daniel");
+	System.out.println("persona2 = " + persona2);
+    }
+
+}

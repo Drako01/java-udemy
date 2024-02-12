@@ -1,0 +1,15 @@
+package com.udemy.test;
+
+import com.udemy.encapsulamiento.Persona;
+
+public class PersonaPrueba {
+    public static void main(String[] args) {
+	
+	Persona persona1 = new Persona("Alejandro", "Di Stefano", "Profesor", 47, 100000, false);
+	persona1.setNombre("Alejandro Daniel");
+	
+	persona1.toString();
+
+    }
+
+}

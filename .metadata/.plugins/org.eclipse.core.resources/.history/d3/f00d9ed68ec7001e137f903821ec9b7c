@@ -1,0 +1,8 @@
+package com.udemy.herencia.empleado;
+
+import com.udemy.herencia.Persona;
+
+public class Empleado extends Persona{
+
+    
+}

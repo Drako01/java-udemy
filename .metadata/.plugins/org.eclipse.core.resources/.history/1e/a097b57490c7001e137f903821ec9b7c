@@ -1,0 +1,42 @@
+package com.udemy.herencia.empleado;
+
+import com.udemy.herencia.Persona;
+
+public class Empleado extends Persona {
+
+    private int idEmpleado;
+    private double sueldo;
+    private static int contadorEmpleado;
+
+    public Empleado(String nombre, double sueldo) {
+	super(nombre);
+	this.idEmpleado = ++Empleado.contadorEmpleado;
+	this.sueldo = sueldo;
+
+    }
+    /*
+     * Constructores de la Clase Padre public Empleado() { super(); } public
+     * Empleado(String nombre, char genero, int edad, String direccion) {
+     * super(nombre, genero, edad, direccion); } public Empleado(String nombre) {
+     * super(nombre); }
+     */
+
+    public int getIdEmpleado() {
+	return this.idEmpleado;
+    }
+
+    public double getSueldo() {
+	return this.sueldo;
+    }
+
+    public void setSueldo(double sueldo) {
+	this.sueldo = sueldo;
+    }
+
+    @Override
+    public String toString() {
+	return "Empleado [idEmpleado=" + this.idEmpleado + "" + ", sueldo=" + this.sueldo + "" + ", Persona="
+		+ super.toString() + "]";
+    }
+
+}

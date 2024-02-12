@@ -1,0 +1,10 @@
+package seccion_06;
+
+public class SistemaDeCalificaciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

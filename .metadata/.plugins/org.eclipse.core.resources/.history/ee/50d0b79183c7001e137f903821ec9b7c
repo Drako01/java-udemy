@@ -1,0 +1,7 @@
+package com.udemt.encapsulamiento;
+
+public class Persona {
+
+    private String dato1;
+    
+}

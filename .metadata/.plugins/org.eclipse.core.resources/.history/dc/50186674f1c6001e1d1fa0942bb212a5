@@ -1,0 +1,9 @@
+package com.udemy.persona;
+
+public class ObjetoUno extends Persona {
+
+	public ObjetoUno() {
+		
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com.udemy;
+
+public class Scanners {
+
+	public static void main(String[] args) {
+		var usuario = "Alejandro";
+		
+		System.out.println("usuario = " + usuario);
+		
+	}
+
+}

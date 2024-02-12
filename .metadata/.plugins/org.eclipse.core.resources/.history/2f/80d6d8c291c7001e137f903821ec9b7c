@@ -1,0 +1,13 @@
+package com.udemy.herencia.test;
+
+import com.udemy.herencia.empleado.Empleado;
+
+public class TestHerencia {
+
+    public static void main(String[] args) {
+	Empleado empleado1 = new Empleado("Barbara", 5000.0);
+
+	System.out.println(empleado1);
+    }
+
+}

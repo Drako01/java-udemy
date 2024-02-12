@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.udemy.herencia.Herencia&apos; to &apos;Persona&apos;&#x0D;&#x0A;- Original project: &apos;seccion_017&apos;&#x0D;&#x0A;- Original element: &apos;com.udemy.herencia.Herencia&apos;&#x0D;&#x0A;- Renamed element: &apos;com.udemy.herencia.Persona&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Herencia&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.udemy.herencia{Herencia.java[Herencia" matchStrategy="1" name="Persona" qualified="false" references="true" similarDeclarations="false" stamp="1707511440466" textual="false" version="1.0"/>
+</session>

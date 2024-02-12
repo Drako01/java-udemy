@@ -1,0 +1,12 @@
+package com.udemy;
+
+public class VariablesConVar {
+
+	public static void main(String[] args) {
+		var numeroEntero = 10;
+		
+		System.out.println("numeroEntero = " + numeroEntero);
+
+	}
+
+}

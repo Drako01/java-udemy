@@ -1,0 +1,21 @@
+package com.udemy;
+
+import java.util.Scanner;
+
+public class ElMayorDeLosNumeros {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Proporciona el Numero 1: ");
+		var numero1 = scanner.nextInt();
+		System.out.println("Proporciona el Numero 1: ");
+		var numero2 = scanner.nextInt();
+		
+		var mayor = Math.max(numero1, numero2) ;
+		System.out.println("Número Mayor: " + mayor);
+		
+		scanner.close();
+	}
+
+}

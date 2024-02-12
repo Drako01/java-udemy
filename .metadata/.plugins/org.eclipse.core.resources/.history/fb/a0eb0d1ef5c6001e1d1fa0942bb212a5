@@ -1,0 +1,10 @@
+package com.udemy.operaciones;
+
+public class PruebaAritmetica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

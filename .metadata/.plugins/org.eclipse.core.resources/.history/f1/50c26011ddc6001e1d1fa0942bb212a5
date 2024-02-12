@@ -1,0 +1,22 @@
+package com.udemy;
+
+import java.util.Scanner;
+
+public class Scanners {
+
+	public static void main(String[] args) {
+		var usuario = "Alejandro";
+		
+		System.out.println("usuario = " + usuario);
+		
+		System.out.println("Escribe tu nombre: ");
+		Scanner scanner = new Scanner(System.in);
+		
+		var user = scanner.nextLine();
+		System.out.println("user = " + user);
+		
+		scanner.close();
+		
+	}
+
+}

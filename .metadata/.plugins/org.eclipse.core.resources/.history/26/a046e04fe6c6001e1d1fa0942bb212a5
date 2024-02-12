@@ -1,0 +1,19 @@
+package com.udemy;
+
+public class OperadoresUnarios {
+
+	public static void main(String[] args) {
+		// Preincremento
+		var a = 3;
+		var b = ++a;
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+
+		// Postincremento
+		var c = 3;
+		var d = a++;
+		System.out.println("c = " + c);
+		System.out.println("d = " + d);
+	}
+
+}

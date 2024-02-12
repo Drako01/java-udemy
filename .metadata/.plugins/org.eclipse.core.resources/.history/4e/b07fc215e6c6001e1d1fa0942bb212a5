@@ -1,0 +1,13 @@
+package com.udemy;
+
+public class OperadoresUnarios {
+
+	public static void main(String[] args) {
+		
+		var a = 3;
+		var b = ++a;
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+	}
+
+}

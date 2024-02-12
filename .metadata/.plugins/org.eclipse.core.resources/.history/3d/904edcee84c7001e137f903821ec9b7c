@@ -1,0 +1,10 @@
+package com.udemy.test;
+
+import com.udemy.encapsulamiento.Persona;
+
+public class PersonaPrueba {
+    public static void main(String[] args) {
+
+    }
+
+}

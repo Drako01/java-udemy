@@ -1,0 +1,10 @@
+package com.udemy.persona;
+
+public class ObjetoUno {
+
+	public static void main(String[] args) {
+		
+	}
+
+	
+}

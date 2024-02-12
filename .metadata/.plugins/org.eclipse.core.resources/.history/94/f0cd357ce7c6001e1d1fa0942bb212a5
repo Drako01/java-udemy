@@ -1,0 +1,11 @@
+package com.udemy;
+
+public class OperadorTernario {
+
+	public static void main(String[] args) {
+		var resultado = (3 > 7) ? "Verdadero" : "Falso";
+		System.out.println("Resultado: " + resultado);
+
+	}
+
+}

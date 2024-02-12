@@ -1,0 +1,14 @@
+package com.udemy;
+
+public class Concatenaciones {
+
+	public static void main(String[] args) {
+		var usuario = "Alejandro";
+		var titulo = "Ingeniero";
+		var union = titulo + usuario;
+		
+		System.out.println(union);
+
+	}
+
+}

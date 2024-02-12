@@ -1,0 +1,20 @@
+package com.udemy.palabrathis;
+
+public class PalabraThis {
+    public static void main(String[] args) {
+
+    }
+
+}
+
+class Persona {
+    String nombre;
+    String apellido;
+    
+    public Persona(String nombre, String apellido) {	
+	this.nombre = nombre;
+	this.apellido = apellido;
+    }
+    
+    
+}

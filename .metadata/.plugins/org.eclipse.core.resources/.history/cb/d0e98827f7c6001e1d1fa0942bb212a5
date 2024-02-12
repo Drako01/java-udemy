@@ -1,0 +1,23 @@
+package com.udemy.operaciones;
+
+public class Aritmetica {
+	// Atributos de la Clase
+	int a;
+	int b;
+
+	// Metodos
+	public void sumar() {
+		int resultado = a + b ;
+		System.out.println("El resultado es: " + resultado);
+	}
+
+	public int sumarConRetorno() {		
+		return a + b;
+	}
+	
+	public int sumarConargumentos(int num1, int num2) {
+		a = num1;
+		b = num2;
+		return sumarConRetorno();
+	}
+}

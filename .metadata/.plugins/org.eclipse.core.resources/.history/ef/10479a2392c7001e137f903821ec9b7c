@@ -1,0 +1,18 @@
+package com.udemy.herencia.test;
+
+import com.udemy.herencia.cliente.Cliente;
+import com.udemy.herencia.empleado.Empleado;
+
+public class TestHerencia {
+
+    public static void main(String[] args) {
+	Empleado empleado1 = new Empleado("Barbara", 5000.0);
+
+	System.out.println(empleado1);
+	
+	Cliente cliente = new Cliente("Barbara", 09/02/2024, true);
+
+	System.out.println(cliente);
+    }
+
+}

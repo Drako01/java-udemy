@@ -1,0 +1,7 @@
+package com.udemy.herencia.cliente;
+
+import com.udemy.herencia.Persona;
+
+public class Cliente extends Persona {
+
+}

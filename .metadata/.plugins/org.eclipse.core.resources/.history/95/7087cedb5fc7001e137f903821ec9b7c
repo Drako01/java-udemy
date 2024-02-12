@@ -1,0 +1,12 @@
+package com.udemy.caja;
+
+public class PruebaCalculoDeVolumen {
+
+	public static void main(String[] args) {
+		Caja caja = new Caja(3, 2, 6);
+		Caja cajaSinArg = new Caja();
+		
+		System.out.println("El volumen de la Caja es: " + caja.calcularVolumen());
+	}
+
+}
